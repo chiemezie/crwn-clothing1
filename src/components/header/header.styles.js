@@ -22,5 +22,6 @@ justify-content: flex-end;
 
 .option {
   padding: 10px 15px;
+  cursor: pointer; 
 }
 `; 
