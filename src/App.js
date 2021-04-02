@@ -20,7 +20,8 @@ function App() {
                   setCurrentUser({ 
                       id: snapShot.id, 
                       ...snapShot.data()
-                  })
+                  })  
+                  console.log(currentUser); 
               }) ; 
              
           }

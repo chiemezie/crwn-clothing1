@@ -18,6 +18,7 @@ const config = {
 
       // get the reference to the object with the id supplied 
       const userRef = firestore.doc(`users/${userAuth.uid}`); 
+      console.log(await firestore.collection('users').get()); 
 
       // get a snapshot using the crud methods from the reference that we got 
       const snapShot = await userRef.get(); 
